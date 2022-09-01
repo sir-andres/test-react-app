@@ -1,0 +1,7 @@
+image: node:16.17.0-stretch
+
+
+test:
+        script:
+                - yarn install
+                - CI=true yarn test
